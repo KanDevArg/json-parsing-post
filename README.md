@@ -6,3 +6,4 @@ Code used in JSON parsing post: https://kgrz.io/go-json-flatten-filter-cleaner-t
 
 
 Run `go run main.go`
+Output: [output.txt](./output.txt)
