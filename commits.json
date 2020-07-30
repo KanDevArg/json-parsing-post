@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "cf04dec8b1054293cac04ee4353134159d1024d9",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpjZjA0ZGVjOGIxMDU0MjkzY2FjMDRlZTQzNTMxMzQxNTlkMTAyNGQ5",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-09T17:22:11Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: guild w/o parallel",
+      "tree": {
+        "sha": "9b8bd4b6cf0154cb50841684f61e73b5b4e9aa71",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/9b8bd4b6cf0154cb50841684f61e73b5b4e9aa71"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/cf04dec8b1054293cac04ee4353134159d1024d9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/cf04dec8b1054293cac04ee4353134159d1024d9",
+    "html_url": "https://github.com/ruby/ruby/commit/cf04dec8b1054293cac04ee4353134159d1024d9",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/cf04dec8b1054293cac04ee4353134159d1024d9/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed22bf47cc551bb26f17fbaebadd06d1ff2b8948",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/ed22bf47cc551bb26f17fbaebadd06d1ff2b8948",
+        "html_url": "https://github.com/ruby/ruby/commit/ed22bf47cc551bb26f17fbaebadd06d1ff2b8948"
+      }
+    ]
+  },
+  {
+    "sha": "9d6b908204875e0828a7101e0e13d951daf00457",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo5ZDZiOTA4MjA0ODc1ZTA4MjhhNzEwMWUwZTEzZDk1MWRhZjAwNDU3",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T04:51:10Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: global variables are guild-local variables",
+      "tree": {
+        "sha": "167c413de462817dcbf82817fa2c8215204318e7",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/167c413de462817dcbf82817fa2c8215204318e7"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/9d6b908204875e0828a7101e0e13d951daf00457",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/9d6b908204875e0828a7101e0e13d951daf00457",
+    "html_url": "https://github.com/ruby/ruby/commit/9d6b908204875e0828a7101e0e13d951daf00457",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/9d6b908204875e0828a7101e0e13d951daf00457/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf04dec8b1054293cac04ee4353134159d1024d9",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/cf04dec8b1054293cac04ee4353134159d1024d9",
+        "html_url": "https://github.com/ruby/ruby/commit/cf04dec8b1054293cac04ee4353134159d1024d9"
+      }
+    ]
+  },
+  {
+    "sha": "07b97c427d98622ab345bb8f41cd17f1bf3d925f",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDowN2I5N2M0MjdkOTg2MjJhYjM0NWJiOGY0MWNkMTdmMWJmM2Q5MjVm",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T15:27:35Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: support Guild.new(self_class:)",
+      "tree": {
+        "sha": "7e0a51029a55fe8db47378eca34867316f1d799f",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/7e0a51029a55fe8db47378eca34867316f1d799f"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/07b97c427d98622ab345bb8f41cd17f1bf3d925f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/07b97c427d98622ab345bb8f41cd17f1bf3d925f",
+    "html_url": "https://github.com/ruby/ruby/commit/07b97c427d98622ab345bb8f41cd17f1bf3d925f",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/07b97c427d98622ab345bb8f41cd17f1bf3d925f/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9d6b908204875e0828a7101e0e13d951daf00457",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/9d6b908204875e0828a7101e0e13d951daf00457",
+        "html_url": "https://github.com/ruby/ruby/commit/9d6b908204875e0828a7101e0e13d951daf00457"
+      }
+    ]
+  },
+  {
+    "sha": "c48428af9e6a763c46c80ecaeee764f6c700ffac",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpjNDg0MjhhZjllNmE3NjNjNDZjODBlY2FlZWU3NjRmNmM3MDBmZmFj",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T15:50:46Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: support Guild.new(self_instance:)",
+      "tree": {
+        "sha": "65dab339accef9981d3eb35416ca25f2ce6dad97",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/65dab339accef9981d3eb35416ca25f2ce6dad97"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/c48428af9e6a763c46c80ecaeee764f6c700ffac",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/c48428af9e6a763c46c80ecaeee764f6c700ffac",
+    "html_url": "https://github.com/ruby/ruby/commit/c48428af9e6a763c46c80ecaeee764f6c700ffac",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/c48428af9e6a763c46c80ecaeee764f6c700ffac/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "07b97c427d98622ab345bb8f41cd17f1bf3d925f",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/07b97c427d98622ab345bb8f41cd17f1bf3d925f",
+        "html_url": "https://github.com/ruby/ruby/commit/07b97c427d98622ab345bb8f41cd17f1bf3d925f"
+      }
+    ]
+  },
+  {
+    "sha": "ebd2d117a077cb9289e10f07e1f3dd812dc120bb",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDplYmQyZDExN2EwNzdjYjkyODllMTBmMDdlMWYzZGQ4MTJkYzEyMGJi",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T16:00:43Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: don't need C",
+      "tree": {
+        "sha": "60802d10fd59c8de0a46112470c3873cb674fc71",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/60802d10fd59c8de0a46112470c3873cb674fc71"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/ebd2d117a077cb9289e10f07e1f3dd812dc120bb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/ebd2d117a077cb9289e10f07e1f3dd812dc120bb",
+    "html_url": "https://github.com/ruby/ruby/commit/ebd2d117a077cb9289e10f07e1f3dd812dc120bb",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/ebd2d117a077cb9289e10f07e1f3dd812dc120bb/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c48428af9e6a763c46c80ecaeee764f6c700ffac",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/c48428af9e6a763c46c80ecaeee764f6c700ffac",
+        "html_url": "https://github.com/ruby/ruby/commit/c48428af9e6a763c46c80ecaeee764f6c700ffac"
+      }
+    ]
+  },
+  {
+    "sha": "8bda80199b2f05ea25c9a575b562c456b94650b2",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo4YmRhODAxOTliMmYwNWVhMjVjOWE1NzViNTYyYzQ1NmI5NDY1MGIy",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T16:42:07Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: Proc#isolate and Proc#isolate!\n\nNote that it doesn't check accessing outer variables via\na binding.",
+      "tree": {
+        "sha": "0e09c6f7bfae4eca229d0c17a82e1ec8700f6ded",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/0e09c6f7bfae4eca229d0c17a82e1ec8700f6ded"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/8bda80199b2f05ea25c9a575b562c456b94650b2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/8bda80199b2f05ea25c9a575b562c456b94650b2",
+    "html_url": "https://github.com/ruby/ruby/commit/8bda80199b2f05ea25c9a575b562c456b94650b2",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/8bda80199b2f05ea25c9a575b562c456b94650b2/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ebd2d117a077cb9289e10f07e1f3dd812dc120bb",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/ebd2d117a077cb9289e10f07e1f3dd812dc120bb",
+        "html_url": "https://github.com/ruby/ruby/commit/ebd2d117a077cb9289e10f07e1f3dd812dc120bb"
+      }
+    ]
+  },
+  {
+    "sha": "5aadba98db79de30c617914d35e5590b2e11bc7e",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo1YWFkYmE5OGRiNzlkZTMwYzYxNzkxNGQzNWU1NTkwYjJlMTFiYzdl",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T16:47:38Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:26Z"
+      },
+      "message": "WIP: add a test for isolated Proc",
+      "tree": {
+        "sha": "9757d71a7905558e6db876a2fb629e8b24385eff",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/9757d71a7905558e6db876a2fb629e8b24385eff"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/5aadba98db79de30c617914d35e5590b2e11bc7e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/5aadba98db79de30c617914d35e5590b2e11bc7e",
+    "html_url": "https://github.com/ruby/ruby/commit/5aadba98db79de30c617914d35e5590b2e11bc7e",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/5aadba98db79de30c617914d35e5590b2e11bc7e/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8bda80199b2f05ea25c9a575b562c456b94650b2",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/8bda80199b2f05ea25c9a575b562c456b94650b2",
+        "html_url": "https://github.com/ruby/ruby/commit/8bda80199b2f05ea25c9a575b562c456b94650b2"
+      }
+    ]
+  },
+  {
+    "sha": "6d4acbaf5485bba5704add4827bf22a5e098e83d",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo2ZDRhY2JhZjU0ODViYmE1NzA0YWRkNDgyN2JmMjJhNWUwOThlODNk",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T19:26:49Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: restrict ivar accesses for shareable objects.",
+      "tree": {
+        "sha": "36319e1620a1b90fe9e5b7d67f9569cf14a78548",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/36319e1620a1b90fe9e5b7d67f9569cf14a78548"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/6d4acbaf5485bba5704add4827bf22a5e098e83d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/6d4acbaf5485bba5704add4827bf22a5e098e83d",
+    "html_url": "https://github.com/ruby/ruby/commit/6d4acbaf5485bba5704add4827bf22a5e098e83d",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/6d4acbaf5485bba5704add4827bf22a5e098e83d/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5aadba98db79de30c617914d35e5590b2e11bc7e",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/5aadba98db79de30c617914d35e5590b2e11bc7e",
+        "html_url": "https://github.com/ruby/ruby/commit/5aadba98db79de30c617914d35e5590b2e11bc7e"
+      }
+    ]
+  },
+  {
+    "sha": "42d0aa5f3424e38b2f78c10f0423a4556241550a",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo0MmQwYWE1ZjM0MjRlMzhiMmY3OGMxMGYwNDIzYTQ1NTYyNDE1NTBh",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T19:43:49Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: Guild and Guild::Channel is sharable.",
+      "tree": {
+        "sha": "23051364a8f072b2a72f871c8ce4337561fd2abe",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/23051364a8f072b2a72f871c8ce4337561fd2abe"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/42d0aa5f3424e38b2f78c10f0423a4556241550a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/42d0aa5f3424e38b2f78c10f0423a4556241550a",
+    "html_url": "https://github.com/ruby/ruby/commit/42d0aa5f3424e38b2f78c10f0423a4556241550a",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/42d0aa5f3424e38b2f78c10f0423a4556241550a/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d4acbaf5485bba5704add4827bf22a5e098e83d",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/6d4acbaf5485bba5704add4827bf22a5e098e83d",
+        "html_url": "https://github.com/ruby/ruby/commit/6d4acbaf5485bba5704add4827bf22a5e098e83d"
+      }
+    ]
+  },
+  {
+    "sha": "48f7a6710e773152971686a0f60b3dbf229a0a51",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo0OGY3YTY3MTBlNzczMTUyOTcxNjg2YTBmNjBiM2RiZjIyOWEwYTUx",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-11T19:56:37Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "sharable -> shareable",
+      "tree": {
+        "sha": "961ac55c0ec5000973592090f2805427f06cce57",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/961ac55c0ec5000973592090f2805427f06cce57"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/48f7a6710e773152971686a0f60b3dbf229a0a51",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/48f7a6710e773152971686a0f60b3dbf229a0a51",
+    "html_url": "https://github.com/ruby/ruby/commit/48f7a6710e773152971686a0f60b3dbf229a0a51",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/48f7a6710e773152971686a0f60b3dbf229a0a51/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "42d0aa5f3424e38b2f78c10f0423a4556241550a",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/42d0aa5f3424e38b2f78c10f0423a4556241550a",
+        "html_url": "https://github.com/ruby/ruby/commit/42d0aa5f3424e38b2f78c10f0423a4556241550a"
+      }
+    ]
+  },
+  {
+    "sha": "6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo2ZDgzNjVmYmYzMmNmMWE2ODBlMWIzZGViOWMxYmRjZTQ2MzQ3YmNi",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-15T19:23:41Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: introduce const rule and Guild#name method",
+      "tree": {
+        "sha": "9b269e4fd4812ca7056653591ea2a3cc46124fa0",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/9b269e4fd4812ca7056653591ea2a3cc46124fa0"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb",
+    "html_url": "https://github.com/ruby/ruby/commit/6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48f7a6710e773152971686a0f60b3dbf229a0a51",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/48f7a6710e773152971686a0f60b3dbf229a0a51",
+        "html_url": "https://github.com/ruby/ruby/commit/48f7a6710e773152971686a0f60b3dbf229a0a51"
+      }
+    ]
+  },
+  {
+    "sha": "d2f779a08b70e775243f9435c23c890de51101fb",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpkMmY3NzlhMDhiNzBlNzc1MjQzZjk0MzVjMjNjODkwZGU1MTEwMWZi",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-15T19:32:42Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "add comments on tests",
+      "tree": {
+        "sha": "be357261f7c50c3df787327fba90f66b779b5482",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/be357261f7c50c3df787327fba90f66b779b5482"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/d2f779a08b70e775243f9435c23c890de51101fb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/d2f779a08b70e775243f9435c23c890de51101fb",
+    "html_url": "https://github.com/ruby/ruby/commit/d2f779a08b70e775243f9435c23c890de51101fb",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/d2f779a08b70e775243f9435c23c890de51101fb/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb",
+        "html_url": "https://github.com/ruby/ruby/commit/6d8365fbf32cf1a680e1b3deb9c1bdce46347bcb"
+      }
+    ]
+  },
+  {
+    "sha": "5bf7bd2c1241399fc42d5ffbe6dce17f75373461",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo1YmY3YmQyYzEyNDEzOTlmYzQyZDVmZmJlNmRjZTE3Zjc1MzczNDYx",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-16T01:46:10Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "fix last commit and add a test",
+      "tree": {
+        "sha": "7842ee4a10acaf99730e0c0b51ac09f601a4106e",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/7842ee4a10acaf99730e0c0b51ac09f601a4106e"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/5bf7bd2c1241399fc42d5ffbe6dce17f75373461",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/5bf7bd2c1241399fc42d5ffbe6dce17f75373461",
+    "html_url": "https://github.com/ruby/ruby/commit/5bf7bd2c1241399fc42d5ffbe6dce17f75373461",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/5bf7bd2c1241399fc42d5ffbe6dce17f75373461/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2f779a08b70e775243f9435c23c890de51101fb",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/d2f779a08b70e775243f9435c23c890de51101fb",
+        "html_url": "https://github.com/ruby/ruby/commit/d2f779a08b70e775243f9435c23c890de51101fb"
+      }
+    ]
+  },
+  {
+    "sha": "921035c5056835fd23ee85fc981f70a016bc0383",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo5MjEwMzVjNTA1NjgzNWZkMjNlZTg1ZmM5ODFmNzBhMDE2YmMwMzgz",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-16T02:59:23Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "add some tests",
+      "tree": {
+        "sha": "63316b96ab076a2e0df928323b8a2e68661919ed",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/63316b96ab076a2e0df928323b8a2e68661919ed"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/921035c5056835fd23ee85fc981f70a016bc0383",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/921035c5056835fd23ee85fc981f70a016bc0383",
+    "html_url": "https://github.com/ruby/ruby/commit/921035c5056835fd23ee85fc981f70a016bc0383",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/921035c5056835fd23ee85fc981f70a016bc0383/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5bf7bd2c1241399fc42d5ffbe6dce17f75373461",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/5bf7bd2c1241399fc42d5ffbe6dce17f75373461",
+        "html_url": "https://github.com/ruby/ruby/commit/5bf7bd2c1241399fc42d5ffbe6dce17f75373461"
+      }
+    ]
+  },
+  {
+    "sha": "cc0b9ab910c81dcb24879a05d2517fcf3eb75144",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpjYzBiOWFiOTEwYzgxZGNiMjQ4NzlhMDVkMjUxN2ZjZjNlYjc1MTQ0",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-16T02:59:41Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "add current memo",
+      "tree": {
+        "sha": "93d48ccc9cba056fb79c4b5a3f7166551e87f027",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/93d48ccc9cba056fb79c4b5a3f7166551e87f027"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/cc0b9ab910c81dcb24879a05d2517fcf3eb75144",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/cc0b9ab910c81dcb24879a05d2517fcf3eb75144",
+    "html_url": "https://github.com/ruby/ruby/commit/cc0b9ab910c81dcb24879a05d2517fcf3eb75144",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/cc0b9ab910c81dcb24879a05d2517fcf3eb75144/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "921035c5056835fd23ee85fc981f70a016bc0383",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/921035c5056835fd23ee85fc981f70a016bc0383",
+        "html_url": "https://github.com/ruby/ruby/commit/921035c5056835fd23ee85fc981f70a016bc0383"
+      }
+    ]
+  },
+  {
+    "sha": "1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDoxY2MzNGJjZDBlNTM3Yzg2ZTE0ZGE1YmQzNTFkYzRkMjRhYzJlZGZj",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-17T06:30:25Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "fix doc",
+      "tree": {
+        "sha": "a2f133609a3ff3df1739c894a5dcd9aecce4b357",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/a2f133609a3ff3df1739c894a5dcd9aecce4b357"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc",
+    "html_url": "https://github.com/ruby/ruby/commit/1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc0b9ab910c81dcb24879a05d2517fcf3eb75144",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/cc0b9ab910c81dcb24879a05d2517fcf3eb75144",
+        "html_url": "https://github.com/ruby/ruby/commit/cc0b9ab910c81dcb24879a05d2517fcf3eb75144"
+      }
+    ]
+  },
+  {
+    "sha": "d1b0b42297e93ae8dce2e8e08bce15c2b24b0769",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpkMWIwYjQyMjk3ZTkzYWU4ZGNlMmU4ZTA4YmNlMTVjMmIyNGIwNzY5",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-17T07:12:05Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: self of Guild block is a Guild object",
+      "tree": {
+        "sha": "273dfcbb707721a6d771dc487859b75188b30717",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/273dfcbb707721a6d771dc487859b75188b30717"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/d1b0b42297e93ae8dce2e8e08bce15c2b24b0769",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/d1b0b42297e93ae8dce2e8e08bce15c2b24b0769",
+    "html_url": "https://github.com/ruby/ruby/commit/d1b0b42297e93ae8dce2e8e08bce15c2b24b0769",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/d1b0b42297e93ae8dce2e8e08bce15c2b24b0769/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc",
+        "html_url": "https://github.com/ruby/ruby/commit/1cc34bcd0e537c86e14da5bd351dc4d24ac2edfc"
+      }
+    ]
+  },
+  {
+    "sha": "938449f0f5a8a072108ac539ba60c90cd9ef499f",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo5Mzg0NDlmMGY1YThhMDcyMTA4YWM1MzliYTYwYzkwY2Q5ZWY0OTlm",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-17T08:13:43Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: make propageted Error to Guild::RemoteError",
+      "tree": {
+        "sha": "700a8f73a15cacada25f140d9c06be35cc32d3a3",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/700a8f73a15cacada25f140d9c06be35cc32d3a3"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/938449f0f5a8a072108ac539ba60c90cd9ef499f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/938449f0f5a8a072108ac539ba60c90cd9ef499f",
+    "html_url": "https://github.com/ruby/ruby/commit/938449f0f5a8a072108ac539ba60c90cd9ef499f",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/938449f0f5a8a072108ac539ba60c90cd9ef499f/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d1b0b42297e93ae8dce2e8e08bce15c2b24b0769",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/d1b0b42297e93ae8dce2e8e08bce15c2b24b0769",
+        "html_url": "https://github.com/ruby/ruby/commit/d1b0b42297e93ae8dce2e8e08bce15c2b24b0769"
+      }
+    ]
+  },
+  {
+    "sha": "029f6e421317163fa0dee6a7c2b8557798e2912d",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDowMjlmNmU0MjEzMTcxNjNmYTBkZWU2YTdjMmI4NTU3Nzk4ZTI5MTJk",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-17T08:31:30Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: Guild::RemoteError#guild",
+      "tree": {
+        "sha": "867cee2447fe9f92ce1e6bdc0b5b3ea2a7594bc5",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/867cee2447fe9f92ce1e6bdc0b5b3ea2a7594bc5"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/029f6e421317163fa0dee6a7c2b8557798e2912d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/029f6e421317163fa0dee6a7c2b8557798e2912d",
+    "html_url": "https://github.com/ruby/ruby/commit/029f6e421317163fa0dee6a7c2b8557798e2912d",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/029f6e421317163fa0dee6a7c2b8557798e2912d/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "938449f0f5a8a072108ac539ba60c90cd9ef499f",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/938449f0f5a8a072108ac539ba60c90cd9ef499f",
+        "html_url": "https://github.com/ruby/ruby/commit/938449f0f5a8a072108ac539ba60c90cd9ef499f"
+      }
+    ]
+  },
+  {
+    "sha": "dc2573b8d167ff0bf9107e9594345b8c42ceb618",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpkYzI1NzNiOGQxNjdmZjBiZjkxMDdlOTU5NDM0NWI4YzQyY2ViNjE4",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-17T08:42:45Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: gvar is not accessible from non-main guilds",
+      "tree": {
+        "sha": "020359bab30c35e8763b5aecc05586b5766484a2",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/020359bab30c35e8763b5aecc05586b5766484a2"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/dc2573b8d167ff0bf9107e9594345b8c42ceb618",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/dc2573b8d167ff0bf9107e9594345b8c42ceb618",
+    "html_url": "https://github.com/ruby/ruby/commit/dc2573b8d167ff0bf9107e9594345b8c42ceb618",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/dc2573b8d167ff0bf9107e9594345b8c42ceb618/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "029f6e421317163fa0dee6a7c2b8557798e2912d",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/029f6e421317163fa0dee6a7c2b8557798e2912d",
+        "html_url": "https://github.com/ruby/ruby/commit/029f6e421317163fa0dee6a7c2b8557798e2912d"
+      }
+    ]
+  },
+  {
+    "sha": "555f1a90d388bb7afa0d35d58561a3304e57bd29",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo1NTVmMWE5MGQzODhiYjdhZmEwZDM1ZDU4NTYxYTMzMDRlNTdiZDI5",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-17T08:52:19Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: Guild::Channel#close_* is unified to #close",
+      "tree": {
+        "sha": "9af0452cff392803fb0f053679f33d9132462f7a",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/9af0452cff392803fb0f053679f33d9132462f7a"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/555f1a90d388bb7afa0d35d58561a3304e57bd29",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/555f1a90d388bb7afa0d35d58561a3304e57bd29",
+    "html_url": "https://github.com/ruby/ruby/commit/555f1a90d388bb7afa0d35d58561a3304e57bd29",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/555f1a90d388bb7afa0d35d58561a3304e57bd29/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc2573b8d167ff0bf9107e9594345b8c42ceb618",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/dc2573b8d167ff0bf9107e9594345b8c42ceb618",
+        "html_url": "https://github.com/ruby/ruby/commit/dc2573b8d167ff0bf9107e9594345b8c42ceb618"
+      }
+    ]
+  },
+  {
+    "sha": "3baed0ee45b234bafa44986636faa8ff78f6a8c6",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDozYmFlZDBlZTQ1YjIzNGJhZmE0NDk4NjYzNmZhYThmZjc4ZjZhOGM2",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-18T02:06:10Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: rename Guild to Ractor",
+      "tree": {
+        "sha": "6ad5004c04c9c857cb4c53b3345c116b10087f5d",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/6ad5004c04c9c857cb4c53b3345c116b10087f5d"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/3baed0ee45b234bafa44986636faa8ff78f6a8c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/3baed0ee45b234bafa44986636faa8ff78f6a8c6",
+    "html_url": "https://github.com/ruby/ruby/commit/3baed0ee45b234bafa44986636faa8ff78f6a8c6",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/3baed0ee45b234bafa44986636faa8ff78f6a8c6/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "555f1a90d388bb7afa0d35d58561a3304e57bd29",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/555f1a90d388bb7afa0d35d58561a3304e57bd29",
+        "html_url": "https://github.com/ruby/ruby/commit/555f1a90d388bb7afa0d35d58561a3304e57bd29"
+      }
+    ]
+  },
+  {
+    "sha": "b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpiN2RhOGY0ZjIzOTNkNmEzOGZkZmQ0NTZmOWEwYzZlZGE4YzRlZDVj",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-18T03:38:28Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: make a function static",
+      "tree": {
+        "sha": "7fcae1d65b0d3dd00e2397ca3170f7e8f58c3ae7",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/7fcae1d65b0d3dd00e2397ca3170f7e8f58c3ae7"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c",
+    "html_url": "https://github.com/ruby/ruby/commit/b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3baed0ee45b234bafa44986636faa8ff78f6a8c6",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/3baed0ee45b234bafa44986636faa8ff78f6a8c6",
+        "html_url": "https://github.com/ruby/ruby/commit/3baed0ee45b234bafa44986636faa8ff78f6a8c6"
+      }
+    ]
+  },
+  {
+    "sha": "c29da90a825b13499ca2ed84c57d990b882d8216",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpjMjlkYTkwYTgyNWIxMzQ5OWNhMmVkODRjNTdkOTkwYjg4MmQ4MjE2",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-18T15:12:59Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "rename",
+      "tree": {
+        "sha": "5ede7e46cdb7dd08e7e312897ced884b9b588af7",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/5ede7e46cdb7dd08e7e312897ced884b9b588af7"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/c29da90a825b13499ca2ed84c57d990b882d8216",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/c29da90a825b13499ca2ed84c57d990b882d8216",
+    "html_url": "https://github.com/ruby/ruby/commit/c29da90a825b13499ca2ed84c57d990b882d8216",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/c29da90a825b13499ca2ed84c57d990b882d8216/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c",
+        "html_url": "https://github.com/ruby/ruby/commit/b7da8f4f2393d6a38fdfd456f9a0c6eda8c4ed5c"
+      }
+    ]
+  },
+  {
+    "sha": "cf8abf2340b83a132fe26b0ffe5603e11d994191",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpjZjhhYmYyMzQwYjgzYTEzMmZlMjZiMGZmZTU2MDNlMTFkOTk0MTkx",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-23T19:06:43Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: Ractor#close_incoming/outgoing",
+      "tree": {
+        "sha": "3f38f799d51360bec498c11f6af13210853d2aa3",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/3f38f799d51360bec498c11f6af13210853d2aa3"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/cf8abf2340b83a132fe26b0ffe5603e11d994191",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/cf8abf2340b83a132fe26b0ffe5603e11d994191",
+    "html_url": "https://github.com/ruby/ruby/commit/cf8abf2340b83a132fe26b0ffe5603e11d994191",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/cf8abf2340b83a132fe26b0ffe5603e11d994191/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c29da90a825b13499ca2ed84c57d990b882d8216",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/c29da90a825b13499ca2ed84c57d990b882d8216",
+        "html_url": "https://github.com/ruby/ruby/commit/c29da90a825b13499ca2ed84c57d990b882d8216"
+      }
+    ]
+  },
+  {
+    "sha": "5115355af36b183fe41a06ec709f00aba7bb3dd3",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo1MTE1MzU1YWYzNmIxODNmZTQxYTA2ZWM3MDlmMDBhYmE3YmIzZGQz",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-23T19:07:20Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: Ractor.select recognize self",
+      "tree": {
+        "sha": "e981bbbb5db96304e94dfae12a0833bde74a8ba8",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/e981bbbb5db96304e94dfae12a0833bde74a8ba8"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/5115355af36b183fe41a06ec709f00aba7bb3dd3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/5115355af36b183fe41a06ec709f00aba7bb3dd3",
+    "html_url": "https://github.com/ruby/ruby/commit/5115355af36b183fe41a06ec709f00aba7bb3dd3",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/5115355af36b183fe41a06ec709f00aba7bb3dd3/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf8abf2340b83a132fe26b0ffe5603e11d994191",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/cf8abf2340b83a132fe26b0ffe5603e11d994191",
+        "html_url": "https://github.com/ruby/ruby/commit/cf8abf2340b83a132fe26b0ffe5603e11d994191"
+      }
+    ]
+  },
+  {
+    "sha": "93034f0848ba7e65edd06c1a27340fddd40414d8",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo5MzAzNGYwODQ4YmE3ZTY1ZWRkMDZjMWEyNzM0MGZkZGQ0MDQxNGQ4",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-24T05:35:07Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: Ractor.move",
+      "tree": {
+        "sha": "2b9be4b0bb57d6fb8a4faaba4f28afa3b91a683b",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/2b9be4b0bb57d6fb8a4faaba4f28afa3b91a683b"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/93034f0848ba7e65edd06c1a27340fddd40414d8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/93034f0848ba7e65edd06c1a27340fddd40414d8",
+    "html_url": "https://github.com/ruby/ruby/commit/93034f0848ba7e65edd06c1a27340fddd40414d8",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/93034f0848ba7e65edd06c1a27340fddd40414d8/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5115355af36b183fe41a06ec709f00aba7bb3dd3",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/5115355af36b183fe41a06ec709f00aba7bb3dd3",
+        "html_url": "https://github.com/ruby/ruby/commit/5115355af36b183fe41a06ec709f00aba7bb3dd3"
+      }
+    ]
+  },
+  {
+    "sha": "8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDo4YTBiYzQwZTNhN2Q5MjAwYzZjMDI1ZTI0MGFmZGRmMDNmZjBiZDll",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-24T06:59:24Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: remove Ractor::Channel",
+      "tree": {
+        "sha": "22e98d6109296653f616ecc10d560e887b6d748b",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/22e98d6109296653f616ecc10d560e887b6d748b"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e",
+    "html_url": "https://github.com/ruby/ruby/commit/8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "93034f0848ba7e65edd06c1a27340fddd40414d8",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/93034f0848ba7e65edd06c1a27340fddd40414d8",
+        "html_url": "https://github.com/ruby/ruby/commit/93034f0848ba7e65edd06c1a27340fddd40414d8"
+      }
+    ]
+  },
+  {
+    "sha": "ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDpjYTEyYmNmNzIxNWVjYmJiZjRiNjMzNWQ0NjNlYzhkZGUyMGI2ZTMy",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-24T07:14:18Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "WIP: remove Channel",
+      "tree": {
+        "sha": "4cc2d87ff21833069e352da813804ed500a80b01",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/4cc2d87ff21833069e352da813804ed500a80b01"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32",
+    "html_url": "https://github.com/ruby/ruby/commit/ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e",
+        "html_url": "https://github.com/ruby/ruby/commit/8a0bc40e3a7d9200c6c025e240afddf03ff0bd9e"
+      }
+    ]
+  },
+  {
+    "sha": "093a38e9417703eddd51bc371bb545de259e3a53",
+    "node_id": "MDY6Q29tbWl0NTQxNjE4NDowOTNhMzhlOTQxNzcwM2VkZGQ1MWJjMzcxYmI1NDVkZTI1OWUzYTUz",
+    "commit": {
+      "author": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-03-24T07:28:36Z"
+      },
+      "committer": {
+        "name": "Koichi Sasada",
+        "email": "ko1@atdot.net",
+        "date": "2020-07-29T09:50:27Z"
+      },
+      "message": "remove duplicate typedef of rb_ractor_t",
+      "tree": {
+        "sha": "c15727168c46b7f45c9b6669b0327cfddf3d366b",
+        "url": "https://api.github.com/repos/ruby/ruby/git/trees/c15727168c46b7f45c9b6669b0327cfddf3d366b"
+      },
+      "url": "https://api.github.com/repos/ruby/ruby/git/commits/093a38e9417703eddd51bc371bb545de259e3a53",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/ruby/ruby/commits/093a38e9417703eddd51bc371bb545de259e3a53",
+    "html_url": "https://github.com/ruby/ruby/commit/093a38e9417703eddd51bc371bb545de259e3a53",
+    "comments_url": "https://api.github.com/repos/ruby/ruby/commits/093a38e9417703eddd51bc371bb545de259e3a53/comments",
+    "author": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ko1",
+      "id": 9558,
+      "node_id": "MDQ6VXNlcjk1NTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9558?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ko1",
+      "html_url": "https://github.com/ko1",
+      "followers_url": "https://api.github.com/users/ko1/followers",
+      "following_url": "https://api.github.com/users/ko1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ko1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ko1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ko1/subscriptions",
+      "organizations_url": "https://api.github.com/users/ko1/orgs",
+      "repos_url": "https://api.github.com/users/ko1/repos",
+      "events_url": "https://api.github.com/users/ko1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ko1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32",
+        "url": "https://api.github.com/repos/ruby/ruby/commits/ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32",
+        "html_url": "https://github.com/ruby/ruby/commit/ca12bcf7215ecbbbf4b6335d463ec8dde20b6e32"
+      }
+    ]
+  }
+]
